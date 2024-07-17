@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <assert.h> 
-#include "colorPairDataStructures.h"
-#include "convertColorPairToNumber.h"
-#include "convertNumberToColorPair.h"
+#include "numconvtopaircolour.h"
+#include "pair2numberconversion.h"
+#include "pairscolourdata.h"
 
 
 void testNumberTocolourPair(int pairNumber,
