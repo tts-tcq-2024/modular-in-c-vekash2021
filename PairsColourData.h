@@ -21,9 +21,9 @@ int numberOfMajorColors = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
 
 int numberOfMinorColors =sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
 
-typedef struct {
-    enum MajorColor majorColor;
-    enum MinorColor minorColor;
+typedef enum {
+   majorColor,
+   minorColor
 } ColorPair;
 
 #endif
