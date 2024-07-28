@@ -1,4 +1,5 @@
-
+#ifndef NUMCONVTOPAIRCOLOUR_H
+#define NUMCONVTOPAIRCOLOUR_H
 
 ColorPair colorpairfromnumber(int pairNumber) {
     ColorPair colorPair;
@@ -15,3 +16,4 @@ void PrintColorPairToString(const ColorPair* colorPair, char* buffer) {
         MajorColorNames[colorPair->majorColor],
         MinorColorNames[colorPair->minorColor]);
 }
+#endif
